@@ -1,0 +1,8 @@
+# today 2021 01 06 Wednesday 21:24
+# set up git for mind palace ubuntu
+# this update from ubuntu 
+
+id_rsa.pub is following:
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqjbhRVbvW1CJ3ZMcJBuGejCgeIhqIkNp6GUXxugFXnTd+jlIHUM6dTrbTA2O4UXvbjT8h7R7FGW2qQ2vSwMbHiKsmutN3hlaEIXn4w+WOMbq6Uq4cQ98s+lXM/GmEQP3zlEVgpTO6hGRZ3nu26CVsJidXRQcMsQ7zVhXhWGWtCGKKcOtUSoHxhEGRpkNv67JGLtSoQm7NNe6lIgQamlpoFEEl16HfvN/75WPUcIblza/0xmJ48/5qTAwqUSXjsNPvi0XMZQ6cjNHpblrSZki7l93lcblM6OLcR52wEkR0Hb6V0IgBDp+fsSwil9B3pHuTnCdRjiTAZoCU0eiwaVtX 1525553031@qq.com
+

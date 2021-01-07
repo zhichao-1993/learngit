@@ -24,8 +24,10 @@
 #### 2.2.2 分支操作,查看，创建，切换
         git branch [-a] # 查看当前的所在分支，加 -a 会显示所有的分支 
         git branch  new_branch_name  # 新建分支
+        git branch -d new_branch_name # 删除分支
         git checkout branch_name
         git checkout -b new_branch_name # 新建并切换到此分支,相当于前两条命令组合
+
 
 ### 2.3 远程仓库
         vim file      # 撤销修改 git restore file 

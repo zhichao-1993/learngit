@@ -11,7 +11,7 @@
    
 ## 2 操作
 ### 2.1 创建一个本地仓库：
-        mkdir myrepo  && git init  # 本地新建一个空文件夹并初始化为仓库
+        mkdir myrepo  && cd myrepp && git init  # 本地新建一个空文件夹并进入其中并初始化为仓库
         git clone  remote_repo_adds  # 从远程clone一个远程仓库
         创建远程仓库后,会在文件夹myrepo内部有一个.git 的隐藏文件夹，后面的一切git 命令执行都需要先进入cd到仓库内
         即 cd myrepo 后才可以执行下面的命令

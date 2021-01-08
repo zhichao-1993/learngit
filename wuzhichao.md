@@ -12,8 +12,12 @@
     pwd
     
     git init #将目录变成git可以管理的仓库
-
+    git clone #将远程仓库拷贝到本地
+    
 ## 3.添加文件到版本库
     git add "文件名"  (将文件添加到git）
     git commit -m "对文件操作的说明"  （把文件提交到仓库）
     
+## 4.远程仓库操作
+    git push #本地推送到远程 
+    git pull #获取远程仓库的更新到本地

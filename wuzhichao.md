@@ -22,9 +22,10 @@
     git push #本地推送到远程 
     git pull #获取远程仓库的更新到本地
     
-## 5.创建本地分支
+## 5.本地分支操作
     git branch dev #创建一个叫dev分支
     git branch -d dev #删除dev分支
     git checkout dev #切换到dev分支
     git checkout -b dev #新建dev并切换到此分支
     git branch -a #查看所有分支
+    git merge dev #合并dev到当前分支

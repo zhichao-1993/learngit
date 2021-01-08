@@ -27,3 +27,4 @@
     git branch -d dev #删除dev分支
     git checkout dev #切换到dev分支
     git checkout -b dev #新建dev并切换到此分支
+    git branch -a #查看所有分支

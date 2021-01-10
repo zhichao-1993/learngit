@@ -2,7 +2,9 @@
 
 ## 1.安装Git
 ### 1.启动Git Bash    (输入两个参数)
-    git config --global user.name  
+
+    git config --global user.name
+    
     git config --global user.email
 
 ## 2.创建版本库
@@ -29,3 +31,5 @@
     git checkout -b dev #新建dev并切换到此分支
     git branch -a #查看所有分支
     git merge dev #合并dev到当前分支
+    
+*git*

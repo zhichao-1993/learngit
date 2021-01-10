@@ -15,6 +15,7 @@
     
     git init #将目录变成git可以管理的仓库
     git clone #将远程仓库拷贝到本地
+    git clone remote_repo_addr signin  #clone远程仓库到本地指定文件夹signin 
     
 ## 3.添加文件到版本库
     git add "文件名"  (将文件添加到git）
@@ -32,4 +33,6 @@
     git branch -a #查看所有分支
     git merge dev #合并dev到当前分支
     
-*git*
+
+
+

@@ -16,6 +16,9 @@
     git init #将目录变成git可以管理的仓库
     git clone #将远程仓库拷贝到本地
     git clone remote_repo_addr signin  #clone远程仓库到本地指定文件夹signin 
+    使用镜像克隆（在github.com后面添加cnpmjs.org）
+    git clone https://github.com/Hackergeek/architecture-samples
+    git clone https://github.com.cnpmjs.org/Hackergeek/architecture-samples
     
 ## 3.添加文件到版本库
     git add "文件名"  (将文件添加到git）

@@ -35,6 +35,7 @@
     git checkout -b dev #新建dev并切换到此分支
     git branch -a #查看所有分支
     git merge dev #合并dev到当前分支
+    git push --set-upstream origin branch_loc_name #推送本地分支到远程并建立跟踪，远程如果没有，就创建此分支
     
 
 

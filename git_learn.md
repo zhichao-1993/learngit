@@ -124,7 +124,7 @@
    + 在master分支的基础上，可以建立相对于它的分支
    + 在master分支的分支的基础上，可以建立相对于它的分支
  
- 2.手动建立本地分支与远程分支的追踪关系
+ 2.如何建立本地分支与远程分支的追踪关系？（四种方法）
    + 远程上没有建立分支
         + git push --set-upstream origin branch_loc_name #推送本地分支到远程并建立跟踪，远程如果没有，就创建此分支
    + 远程上建立了分支，但是没有追踪
@@ -135,3 +135,8 @@
             + 本地分支和远程分支同名的分支进行追踪
         +  新建分支的时候建立追踪 git checkout -b c origin/c
             + git checkout -b <新建的本地分支名> <远程主机名>/<远程分支名>
+ 
+ 3.已经在远程仓库建立的分支，本地git branch -r 看不见新建的分支  ？
+   + git checkout master 切换到master
+   + git pull 同步一下master
+   + git branch -r   就可以查看到在远程仓库新建的分支了

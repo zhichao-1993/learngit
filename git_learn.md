@@ -131,6 +131,7 @@
         +  手动建立追踪关系 git branch --set-upstream=origin/a a 
             + git branch --set-upstream-to=<远程主机名>/<远程分支名> <本地分支名>  
         +  push时建立追踪关系 git push -u origin b 
+            + 首先要切换到b分支上，才可以操作
             + git push -u <远程主机名><本地分支名>
             + 本地分支和远程分支同名的分支进行追踪
         +  新建分支的时候建立追踪 git checkout -b c origin/c

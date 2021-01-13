@@ -118,3 +118,20 @@
       + 如果当前分支与多个主机存在追踪关系，使用-u指定一个默认主机
    6. git push --all origin
       + 将本地的所有分支推送到远程主机
+
+## 3.感悟
+ 1.对分支的感悟  
+   + 在master分支的基础上，可以建立相对于它的分支
+   + 在master分支的分支的基础上，可以建立相对于它的分支
+ 
+ 2.手动建立本地分支与远程分支的追踪关系
+   + 远程上没有建立分支
+        + git push --set-upstream origin branch_loc_name #推送本地分支到远程并建立跟踪，远程如果没有，就创建此分支
+   + 远程上建立了分支，但是没有追踪
+        +  手动建立追踪关系 git branch --set-upstream=origin/a a 
+            + git branch --set-upstream-to=<远程主机名>/<远程分支名> <本地分支名>  
+        +  push时建立追踪关系 git push -u origin b 
+            + git push -u <远程主机名><本地分支名>
+            + 本地分支和远程分支同名的分支进行追踪
+        +  新建分支的时候建立追踪 git checkout -b c origin/c
+            + git checkout -b <新建的本地分支名> <远程主机名>/<远程分支名>

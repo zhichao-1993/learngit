@@ -27,8 +27,14 @@ button.grid(row=1, column=2, padx=10)
 textfield = Text(root, width=25, height=10, fg='red')
 textfield.grid(row=2, columnspan=2)
 
+# 7.获取末年某月的日历
+cal = calendar.month(2016, 1)
+print(cal)
+
+# 8.删除文本框的内容
+textfield.delete(0.0, 'end')  # 删除文本框的内容
+textfield.insert(INSERT, cal)  # 插入文本内容
+
 root.mainloop()
 
-# 2.获取末年某月的日历
-# cal = calendar.month(2016, 1)
-# print(cal)
+

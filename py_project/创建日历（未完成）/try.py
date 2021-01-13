@@ -14,8 +14,8 @@ def text():
  month_int = int(month.get())  # ? month.get() 有什么作用
  year_int = int(year.get())    # ? year.get() 有什么作用
  cal = calendar.month(year_int, month_int)  # calendar.month（year，month）方法，返回给定年份、月份的日历
- textfield.delete(0.0, END)     # ？这行的作用
- textfield.insert(INSERT, cal)  # ？这行的作用
+ textfield.delete(0.0, END)     # 删除文本框的内容 ？参数什么意思不理解
+ textfield.insert(INSERT, cal)  # 插入文本内容
 
 
 # Creating Labels 创建标签
@@ -47,6 +47,5 @@ button.grid(row=1, column=2, padx=10)
 # thinter的文本控件Text
 textfield = Text(root, width=25, height=10, fg="red")  # w = Text(框架的父容器, 宽25, 高10, fg文本颜色)
 textfield.grid(row=2, columnspan=2)  # 第三行，横跨列数二
-
 
 root.mainloop()

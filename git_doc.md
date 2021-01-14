@@ -32,14 +32,14 @@
         git merge temp    # 合并 temp 到当前分支
 
 ### 2.3 远程仓库
-        git clone git@github.com:Username/Reponame.git 后远程主机名默认为origin
+        git clone it@github.com:Username/Reponame.git 后远程主机名默认为origin
         git remote show <主机名>        # 查看远程主机
         git remote add <主机名> <网址>   # 添加远程主机
         git remote rm <主机名>          # 删除
         git remote rename <原主机名> <新主机名>  # 重命名  
         git remotes [-v] # 查看关联的远程仓库,加 -v 会显示详细信息
         git push      # 本地推送到远程仓库
-        
+       
 
 
     

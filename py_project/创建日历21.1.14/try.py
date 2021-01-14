@@ -11,8 +11,8 @@ root.title("Calendar")  # .title("窗口标题")方法   给窗口取一个标�
 
 # Function
 def text():
- month_int = int(month.get())  # ? month.get() 有什么作用
- year_int = int(year.get())    # ? year.get() 有什么作用
+ month_int = int(month.get())  # 获取月份输入控件的数据
+ year_int = int(year.get())    # 获取年份输入控件的数据
  cal = calendar.month(year_int, month_int)  # calendar.month（year，month）方法，返回给定年份、月份的日历
  textfield.delete(0.0, END)     # 删除文本框的内容 ？参数什么意思不理解
  textfield.insert(INSERT, cal)  # 插入文本内容

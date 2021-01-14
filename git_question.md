@@ -32,8 +32,6 @@
    + 复制git网址
    + 在仓库下运行git Bash
    + 输入 git remote -u origin<远程主机名> master<本地分支名>
-   
-## 5. git clone到本地的项目，修改之后，git push 后，要输入用户名和账号
 
-## 6.git checkout 的时候，在工作区对文件做了修改，但是未add或restore的时候，不能切换到其他分支
+## 5.git checkout 的时候，在工作区对文件做了修改，但是未add或restore的时候，不能切换到其他分支
    + 把修改的文件add到缓存区，或者撤销修改的文件

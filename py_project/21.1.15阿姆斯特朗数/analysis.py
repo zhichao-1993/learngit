@@ -1,6 +1,5 @@
 """
-阿姆斯特朗数
-
+检测三位数内的阿姆斯特朗数
 """
 num=int(input("enter 1-digit number:"))
 f=num
@@ -12,4 +11,4 @@ while (f>0):
 if(sum==num):
     print("it is an armstrong number:",num)
 else:
-    print("it is not an armstrong number:",num)
+    print("it is not an armstrong number:", num)

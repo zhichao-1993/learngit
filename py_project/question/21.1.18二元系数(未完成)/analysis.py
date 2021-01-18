@@ -1,9 +1,9 @@
 """
-
+该项目的需求是什么
 """
 def pascal_triangle(lineNumber):
-    list1 = list()
-    list1.append([1])
+    list1 = list()  # 创建一个空列表
+    list1.append([1])  # 添加元素[1]
     i = 1
     while (i <= lineNumber):
         j = 1

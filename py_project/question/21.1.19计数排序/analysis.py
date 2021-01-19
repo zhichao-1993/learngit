@@ -1,26 +1,21 @@
 """
-
+1.输入元素数量n
+2.在输入n个数字
+3.将排列好的数字，放到列表里
 """
 # python program for counting sort (updated)
 #python程序用于计数排序(更新)
-n = int(input("请给出元素的数量\n"))
+n = int(input("请给出元素的数量\n"))  # 手动输入元素的数量n
 print("好的，现在请输入n个由空格分隔的数字")
 tlist = list(map(int, input().split()))
-k = max(tlist)
-n = len(tlist)
+# map(function,iterable) function函数；iterable一个或多个序列。序列中的每一个元素调用function函数，返回迭代器（里面的值都调用了function函数）
+# split(str,num)  str分隔符，默认是所有的空字符，包括空格、换行符和制表符；num分割次数.将分隔的元素放在列表里。
+k = max(tlist)  # max() 获取列表的最大值
+n = len(tlist)  # len() 获取列表的长度
 
 
-def counting_sort(tlist, k, n):
-    """ Counting sort algo with sort in place.
-        Args:
-            tlist: target list to sort
-            k: max value assume known before hand
-            n: the length of the given list
-            map info to index of the count list.
-        Adv:
-            The count (after cum sum) will hold the actual position of the element in sorted order
-            Using the above,
-
+def counting_sort(tlist, k, n):  # 输入列表，最大值，列表长度；输出排好序的列表
+    """
         数数排序，排序就位。
         Args：
             Tlist：要排序的目标列表

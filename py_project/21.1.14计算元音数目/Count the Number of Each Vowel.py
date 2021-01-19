@@ -7,7 +7,7 @@
     str.lower()
     str.caseflod()
 4.创建一个计数的字典，将元音作为字典的key，value值默认为0
-    {}.fromkeys()
+    {}.fromkeys(keys,value)
 5.判断字符串中的元素是否在字典里，在的话，value值加1
     for循环遍历
     if

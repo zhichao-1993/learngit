@@ -2,6 +2,11 @@
 1.输入元素数量n
 2.在输入n个数字
 3.将排列好的数字，放到列表里
+
+问题：
+1.看不懂counting_sort函数
+ 1.不知道计数列表是什么？
+ 2.[0] * (k + 1)不知道它有什么用处？
 """
 # python program for counting sort (updated)
 #python程序用于计数排序(更新)
@@ -27,18 +32,14 @@ def counting_sort(tlist, k, n):  # 输入列表，最大值，列表长度；输
             利用上面这些，
     """
 
-    # Create a count list and using the index to map to the integer in tlist.
     # 创建一个计数列表，并使用索引映射到tlist中的整数。
-    count_list = [0] * (k + 1)
+    count_list = [0] * (k + 1)  # 1.不知道计数列表是什么？ 2.[0] * (k + 1)不知道它有什么用处？
 
-    # iterate the tgt_list to put into count list
     # 迭代tgt_list以放入计数列表中
     for i in range(0, n):
         count_list[tlist[i]] += 1
 
-    # Modify count list such that each index of count list is the combined sum of the previous counts
     # 修改计数列表，使计数列表的每个索引都是以前计数的总和。
-    # each index indicate the actual position (or sequence) in the output sequence.
     # 每个索引都表示输出序列中的实际位置(或序列)。
     for i in range(1, k + 1):
         count_list[i] = count_list[i] + count_list[i - 1]

@@ -9,9 +9,11 @@
 # 导入 random(随机数) 模块
 """
 import random
-a =random.randint(0,9)
-if a in range(4):
+a =random.randint(1,3)
+if a in range(1, 2):
     print("选择恶臭")
-else:
+elif a in range(2,3):
     print("选择假酒法")
+elif a in range(3,4):
+    print("选择6野兽")
 

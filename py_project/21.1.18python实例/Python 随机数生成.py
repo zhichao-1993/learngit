@@ -9,7 +9,7 @@
 # 导入 random(随机数) 模块
 """
 import random
-a =random.randint(1, 6)
+a =random.randint(1, 8)
 if a in range(1, 2):
     print("选择恶臭")
 elif a in range(2, 3):
@@ -22,3 +22,7 @@ elif a in range(5, 6):
     print("选择4骑士6亡")
 elif a in range(6, 7):
     print("选择9战士")
+elif a in range(7, 8):
+    print("选择9猎人")
+elif a in range(8, 9):
+    print("选择地精")

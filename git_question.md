@@ -35,3 +35,8 @@
 
 ## 5.git checkout 的时候，在工作区对文件做了修改，但是未add或restore的时候，不能切换到其他分支
    + 把修改的文件add到缓存区，或者撤销修改的文件
+   
+## 6.git clone后本地只有一个分支master
+   1.git branch -a 查看分支
+   2.git checkout -b 本地分支名  origin(远程主机名)/远程分支名
+   3.这样远程分支就下载到本地了

@@ -3,7 +3,7 @@
 #       1.songs={}变量放到了for循环里面，每次循环都被清空了，放到循环外面就解决了
 import os
 def Get_song_keywords(path):
-#遍历filepath下所有文件，包括子目录
+#遍历path下所有文件，将数据存入字典
     files = os.listdir(path)# 返回指定目录下的所有文件和目录名
     songs = {}
     for file in files:

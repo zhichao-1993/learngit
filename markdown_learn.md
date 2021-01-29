@@ -100,3 +100,7 @@ And this is the second line.<br>
 
 ## 12.目录语法
     * [标题1](#标题1)
+    
+    # 输入文档，输出生成目录
+    # 自动生成目录工具
+    https://sleepeatcode.com/ghtoc  
